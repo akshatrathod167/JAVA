@@ -96,30 +96,30 @@ public class functions {
     // }
 
     //SWAPPING PARTS OF ARRAY
-    // static void reverse(int[] nums){
-    //     Scanner sc = new Scanner(System.in);
-    //     int sp= sc.nextInt();
-    //     int ep= sc.nextInt();
-    //     for(int i=0; i<nums.length/2; i++){
-    //         int t = nums[sp];
-    //         nums[sp]=nums[ep];
-    //         nums[ep]=t;
-    //         sp++;
-    //         ep--;
-    //     }
-    // }
-    // public static void main(String[] args){
-    //     Scanner sc = new Scanner(System.in);
-    //     int N = sc.nextInt();        
-    //     int[] nums = new int[N];
-    //     for(int i=0; i<N; i++){
-    //         nums[i] = sc.nextInt();
-    //     }
-    //     reverse(nums);
-    //     for(int i=0; i<N; i++){
-    //         System.out.print(nums[i]);
-    //     } 
+    static void reverse(int[] nums){
+        Scanner sc = new Scanner(System.in);
+        int sp= sc.nextInt();
+        int ep= sc.nextInt();
+        for(int i=0; i<nums.length/2; i++){
+            int t = nums[sp];
+            nums[sp]=nums[ep];
+            nums[ep]=t;
+            sp++;
+            ep--;
+        }
+    }
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();        
+        int[] nums = new int[N];
+        for(int i=0; i<N; i++){
+            nums[i] = sc.nextInt();
+        }
+        reverse(nums);
+        for(int i=0; i<N; i++){
+            System.out.print(nums[i]);
+        } 
 
-    // }
+    }
 
 }
