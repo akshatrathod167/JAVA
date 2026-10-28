@@ -152,28 +152,60 @@ public class LoopPatternPrinting {
         // }
         // sc.close();
 
-        Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
-        int nsp=N-1;
-        int nst=1;
-        for(int i=1; i<=2*N-1; i++){
-            for(int j=1;j<=nsp; j++){
-                System.out.print(" ");
-            }
-            for(int j=1; j<=nst; j++){
-                System.out.print("*");
-            }
-            System.out.println();
-            if(i<N){
-                nsp--;
-                nst=nst+2;
-            } else{
-                nsp++;
-                nst=nst-2;
-            }
-        }
-      
+        // Scanner sc = new Scanner(System.in);
+        // int N = sc.nextInt();
+        // int nsp=N-1;
+        // int nst=1;
+        // for(int i=1; i<=2*N-1; i++){
+        //     for(int j=1;j<=nsp; j++){
+        //         System.out.print(" ");
+        //     }
+        //     for(int j=1; j<=nst; j++){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        //     if(i<N){
+        //         nsp--;
+        //         nst=nst+2;
+        //     } else{
+        //         nsp++;
+        //         nst=nst-2;
+        //     }
+        // }
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // int nsp=0;
+        // int nst=n;
+        // for(int i=1; i<=n; i++){
+        //     for(int j=0; j<nsp;j++){
+        //         System.out.print(" ");
+        //     }
+        //     for(int j=1; j<=nst; j++){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        //     nsp++;
+        //     nst--;
+        // }
 
-    
+        //ALPHABETICAL PYRAMID
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // char ch = 'a';
+        // int nsp = n;
+        // int non = 1;
+        // for(int i=1; i<=n; i++){
+        //     for(int j=1; j<nsp; j++){
+        //         System.out.print(" ");
+        //     }
+        //     for(int j=1; j<=non; j++){
+        //         System.out.print(ch+" ");
+        //         ch++;
+        //     }
+        //     System.out.println();
+        //     nsp--;
+        //     non++;
+        // }
+
     }
 }

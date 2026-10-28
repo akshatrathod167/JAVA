@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 public class p2 {
     public static void main(String[] args){
         //square
@@ -227,25 +227,57 @@ public class p2 {
         // }
 
     
+      // Scanner sc = new Scanner(System.in);
+      // int N = sc.nextInt();
+      // int nsp=0;
+      // int non=N/2-1;
+      // for(int i=1; i<=2*N; i++){
+      //   for(int j=1; j<=nsp; j++){
+      //     System.out.print(" ");
+      //   }
+      //   for(int j=1; j<=non; j++){
+      //     System.out.print(j);
+      //   }
+      //   System.out.println();
+      //   if(i<=N){
+      //     nsp++;
+      //     non-=2;
+      //   } else{
+      //     nsp--;
+      //     non+=2;
+      //   }
+      // }
+      // sc.close();
+
+      // Scanner sc = new Scanner(System.in);
+      // int n = sc.nextInt();
+      // int[] nums = new int[n];
+      // for(int i=0; i<n; i++){
+      //   nums[i] = sc.nextInt();
+      // }
+      // int max = Integer.MIN_VALUE;
+      // for(int i=0; i<n; i++){
+      //   if(nums[i]>max){
+      //     max = nums[i];
+      //   }
+      // }
+      // List<Integer> one = new ArrayList<>();
+      // for(int i=1; i<=max; i++){
+      //   one.add(i);
+      // }
+      // for(int i=0; i<one.size(); i++){
+      //   System.out.print(one.get(i));
+      // }
+
       Scanner sc = new Scanner(System.in);
-      int N = sc.nextInt();
-      int nsp=0;
-      int non=N/2-1;
-      for(int i=1; i<=2*N; i++){
-        for(int j=1; j<=nsp; j++){
-          System.out.print(" ");
-        }
-        for(int j=1; j<=non; j++){
-          System.out.print(j);
-        }
-        System.out.println();
-        if(i<=N){
-          nsp++;
-          non-=2;
-        } else{
-          nsp--;
-          non+=2;
-        }
+      int n = sc.nextInt();
+      int[] nums = new int[n];
+      for(int i=0; i<n; i++){
+        nums[i] = sc.nextInt();
       }
+      for(int i=0; i<nums.length; i++){
+        
+      }
+
     }
 }

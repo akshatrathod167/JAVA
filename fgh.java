@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class practice {
+public class fgh {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
@@ -26,7 +26,7 @@ public class practice {
         //     num = num/10;
         // }
         // System.out.print(reverse);
-        // sc.close();
+        sc.close();
 
         //PALINDROME IDENTIFICATION
         // int num = sc.nextInt();

@@ -44,7 +44,9 @@ public class class2 {
       Scanner sc = new Scanner(System.in);
       int N = sc.nextInt();
       for(int i=1; i<=N; i++){
-        
+      
+
+        sc.close();
       }
 
 

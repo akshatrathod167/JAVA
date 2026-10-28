@@ -1,22 +1,9 @@
 package arr;
-import java.util.*;
 
 public class p {
-    static int count(int[] arr){
-        int ans = 0;
-        for(int i=0; i<arr.length; i++){
-            for(int j=0; j<arr.length; j++){
-                if(arr[i]<arr[j]){
-                    ans++;
-                } else{
-                    continue;
-                }
-            }
-        }
-        return ans;
-    }
 
-    public static void main(String[] args){
+
+    // public static void main(String[] args){
         //Print all the elements of the array in separate lines.
         // Scanner sc = new Scanner(System.in);
         // int n = sc.nextInt();
@@ -67,16 +54,67 @@ public class p {
         //      }
         // }
         // System.out.print(largest);
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int[] arr = new int[n];
-        for(int i=0; i<arr.length; i++){
-            arr[i] = sc.nextInt();
+        
+        // public static void main(String[] args){
+        //     Scanner sc = new Scanner(System.in);
+        //     int N = sc.nextInt();
+        //     int[] digits = new int[N];
+        //     for(int i=0; i<N; i++){
+        //         digits[i] = sc.nextInt();
+        //     }
+        //     for(int i=0; i<digits.length; i++){
+        //         if(digits[digits.length-1]==9){
+        //             int[] digitsnew = new int[digits.length+1];
+        //             for(int j=0; i<digitsnew.length; j++){
+                        
+        //             }
+        //         }else if(i==digits.length-1){
+        //             digits[i]++;
+        //         }
+        //     }
+        //     for(int i=0; i<digits.length; i++){
+        //         System.out.println(digits[i]);
+        //     }
+        // }
+
+        // static void maxele(int max){
+        //     for(int i=0; i<nums.length; i++){
+                
+        //     }
+        // }
+        // public static void main(String[] args){
+        //     Scanner sc = new Scanner(System.in);
+        //     int n = sc.nextInt();
+        //     int[] nums = new int[n];
+        //     for(int i=0; i<nums.length; i++){
+        //         nums[i] = sc.nextInt();
+        //     }
+        //     int max = Integer.MIN_VALUE;
+        //     int result = maxele(max);
+        //     System.out.print(result);
+        // }
+
+        // HIGHER-LOWER GAME
+        // public static void main(String[] args){
+        //     Scanner sc = new Scanner(System.in);
+        //     int n = sc.nextInt();
+        //     for(int i=1; i<=5; i++){
+        //         int N = sc.nextInt();
+        //         if(N>n){
+        //             System.out.println("Lower");
+        //         } else if(N<n){
+        //             System.out.println("Higher");
+        //         } else if(N==n){
+        //             System.out.print("FOUND!!");
+        //             break;
+        //         }
+        //     }
+        // }
+
+        public static void main(String[] args){
+            
         }
-        
-       
-        
 
 
-    }
+
 }

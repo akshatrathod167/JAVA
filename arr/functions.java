@@ -1,5 +1,5 @@
 package arr;
-import java.util.Scanner;
+
 public class functions {
 
     //Swapping Two Numbers
@@ -96,30 +96,65 @@ public class functions {
     // }
 
     //SWAPPING PARTS OF ARRAY
-    static void reverse(int[] nums){
-        Scanner sc = new Scanner(System.in);
-        int sp= sc.nextInt();
-        int ep= sc.nextInt();
-        for(int i=0; i<nums.length/2; i++){
-            int t = nums[sp];
-            nums[sp]=nums[ep];
-            nums[ep]=t;
-            sp++;
-            ep--;
-        }
-    }
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();        
-        int[] nums = new int[N];
-        for(int i=0; i<N; i++){
-            nums[i] = sc.nextInt();
-        }
-        reverse(nums);
-        for(int i=0; i<N; i++){
-            System.out.print(nums[i]);
-        } 
+    // static void reverse(int[] nums){
+    //     Scanner sc = new Scanner(System.in);
+    //     int sp= sc.nextInt();
+    //     int ep= sc.nextInt();
+    //     for(int i=0; i<nums.length/2; i++){
+    //         int t = nums[sp];
+    //         nums[sp]=nums[ep];
+    //         nums[ep]=t;
+    //         sp++;
+    //         ep--;
+    //     }
+    // }
+    // public static void main(String[] args){
+    //     Scanner sc = new Scanner(System.in);
+    //     int N = sc.nextInt();        
+    //     int[] nums = new int[N];
+    //     for(int i=0; i<N; i++){
+    //         nums[i] = sc.nextInt();
+    //     }
+    //     reverse(nums);
+    //     for(int i=0; i<N; i++){
+    //         System.out.print(nums[i]);
+    //     } 
 
-    }
+    // }
+
+    //LAST DIGIT PLUS ONE
+    // public static void main(String[] args){
+    //     Scanner sc = new Scanner(System.in);
+    //     int n = sc.nextInt();
+    //     int[] nums = new int[n];
+    //     for(int i=0; i<n; i++){
+    //         nums[i] = sc.nextInt();
+    //     }
+    //     for(int i=0; i<n; i++){
+    //         if(nums[nums.length-1]==9){
+    //             int k = n+1;
+    //             int[] newnums = new int[k];
+    //             for(int j=0; j<k-2; j++){
+    //                 newnums[i] = nums[i];
+    //             }
+    //             newnums[n-1]=1;
+    //             newnums[n]=0;
+    //             for(int l=0; l<nums.length; l++){
+    //                 System.out.print(nums[l]);
+    //             }
+    //         } else{
+    //             for(int j=0; j<nums.length; j++){
+    //                 nums[n-1]=nums[n-1]+1;
+    //             }
+    //             for(int l=0; l<nums.length; l++){
+    //                 System.out.print(nums[l]);
+    //             }
+    //         }
+    //     }
+    // }
+
+
+    
+
 
 }
